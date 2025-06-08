@@ -15,7 +15,6 @@
             </div>
         @endif
 
-
         <div id="question-display" 
              class="bg-gray-800 p-6 rounded-lg shadow-inner mb-6"
              data-quiz-id="{{ $quiz->id }}"
