@@ -76,8 +76,6 @@ Route::middleware(['auth', 'verified'])->group(function () {
         Route::get('/pomodoro', [PomodoroController::class, 'index'])->name('pomodoro.index');
         Route::post('/pomodoro', [PomodoroController::class, 'store'])->name('pomodoro.store');
     });
-    
-    Route::get('/quiz/{quiz}/result', [UserQuizController::class, 'result'])->name('quiz.result');
 });
 
 //Route Admin
