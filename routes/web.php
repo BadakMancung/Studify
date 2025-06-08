@@ -71,11 +71,12 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::post('/quiz/result/{result}/finalize', [UserQuizController::class, 'finalizeQuiz'])->name('quiz.finalize');
     Route::get('/quiz/{quiz}/get-question/{questionNumber}', [UserQuizController::class, 'getQuestionByNumber'])->name('quiz.getQuestion');
     Route::post('/quiz/{quiz}/result', [QuizController::class, 'result'])->name('quiz.result');
-    
+    Route::get('/quiz/{quiz}/result', [UserQuizController::class, 'result'])->name('quiz.result');
     Route::middleware(['auth'])->group(function () {
         Route::get('/pomodoro', [PomodoroController::class, 'index'])->name('pomodoro.index');
         Route::post('/pomodoro', [PomodoroController::class, 'store'])->name('pomodoro.store');
     });
+    
 });
 
 //Route Admin
