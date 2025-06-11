@@ -8,7 +8,8 @@ export default defineConfig({
                     'resources/css/theme.css',
                     'resources/js/app.js', 
                     'resources/js/theme.js',
-                    'resources/js/quiz_attempt.js' 
+                    'resources/js/quiz_attempt.js',
+                    'resources/css/quiz_navigation.css'
                    ],
             refresh: true,
         }),

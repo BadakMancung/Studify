@@ -4,6 +4,11 @@
     "src": "resources/css/app.css",
     "isEntry": true
   },
+  "resources/css/quiz_navigation.css": {
+    "file": "assets/quiz_navigation-jfvVGVX2.css",
+    "src": "resources/css/quiz_navigation.css",
+    "isEntry": true
+  },
   "resources/css/theme.css": {
     "file": "assets/theme-WlgxGoF0.css",
     "src": "resources/css/theme.css",
