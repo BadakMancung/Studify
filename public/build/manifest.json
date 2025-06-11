@@ -1,22 +1,30 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-wNjmbwsL.css",
+    "file": "assets/app-Dygiqppb.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
+  "resources/css/theme.css": {
+    "file": "assets/theme-WlgxGoF0.css",
+    "src": "resources/css/theme.css",
+    "isEntry": true
+  },
   "resources/js/app.js": {
-    "file": "assets/app-BZmirWUx.js",
+    "file": "assets/app-DVclhPkR.js",
     "name": "app",
     "src": "resources/js/app.js",
-    "isEntry": true,
-    "css": [
-      "assets/app-DvB2Xm2x.css"
-    ]
+    "isEntry": true
   },
   "resources/js/quiz_attempt.js": {
-    "file": "assets/quiz_attempt-BNjBY8EM.js",
+    "file": "assets/quiz_attempt-mDQ4uuym.js",
     "name": "quiz_attempt",
     "src": "resources/js/quiz_attempt.js",
+    "isEntry": true
+  },
+  "resources/js/theme.js": {
+    "file": "assets/theme-B9QjMth_.js",
+    "name": "theme",
+    "src": "resources/js/theme.js",
     "isEntry": true
   }
 }
